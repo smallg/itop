@@ -1,0 +1,36 @@
+@import '../../scss/_custom_variables';
+
+.page-wrap {
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  .content-wrap {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-title {
+    color: $font-color-dark;
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.125rem;
+  }
+
+  a {
+    font-size: 1.125rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .page-title {
+    font-size: 2rem !important;
+  }
+}

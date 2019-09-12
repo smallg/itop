@@ -1,0 +1,27 @@
+.gray-icon {
+  color: #d3d3d3;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.cdk-overlay-container {
+  z-index: 9999 !important;
+}
+
+.mat-form-field-label {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.mat-input-element:disabled,
+.mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after {
+  color: rgba(0, 0, 0, 0.6) !important;
+  cursor: not-allowed;
+}
+
+.pointer {
+  cursor: pointer;
+  outline: none;
+}
+

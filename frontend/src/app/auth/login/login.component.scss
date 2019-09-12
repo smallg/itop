@@ -1,0 +1,43 @@
+@import '../../../scss/custom_variables';
+
+::ng-deep app-login {
+  header {
+    height: 80px;
+    color: white;
+    background-color: #03a9f4;
+    letter-spacing: 20px;
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height: 80px;
+  }
+
+  .login-content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-top: 100px;
+
+    .login-btn {
+      margin-top: 50px;
+    }
+  }
+
+  .container {
+    position: relative;
+
+    .login-bg {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      @include media-breakpoint-down(md) {
+        width: 400px;
+        height: 400px;
+      }
+      @include media-breakpoint-down(sm) {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}

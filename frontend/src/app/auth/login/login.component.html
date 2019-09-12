@@ -1,0 +1,16 @@
+<header class="text-center">
+  <p>ITOP</p>
+</header>
+<div class="container">
+  <section class="login-content mx-auto">
+    <mat-form-field>
+      <input matInput placeholder="Email" [(ngModel)]="username">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput placeholder="Password" [(ngModel)]="pwd"></textarea>
+    </mat-form-field>
+
+    <button class="login-btn" mat-raised-button color="primary" (click)="login()">Login</button>
+  </section>
+</div>

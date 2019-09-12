@@ -1,0 +1,42 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1230px
+);
+
+$container-max-widths: (
+  sm: 768px,
+  md: 992px,
+  lg: 1229px,
+  xl: 1230px
+);
+
+//$body-bg: #f5f7fb;
+//$body-color: #50577E;
+$font-family-sans-serif: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-weight-bold: 600;
+
+//$primary: #42CAC2;
+//$secondary: #93a1b0;
+//$warning: #F19321;
+//$success: #42CA9D;
+//$info: #0A6CFF;
+//$dark: #111b51;
+
+$link-color: #0685EB;
+$border-color: #E7E9EE;
+$input-focus-border-color: #0685EB;
+$input-placeholder-color: #aaa;
+$card-border-color: #E7E9EE;
+$component-active-bg: #4A90E2;
+
+$btn-padding-x: 1rem;
+
+$yiq-contrasted-threshold: 180;
+$btn-box-shadow: none;
+$btn-active-box-shadow: none;
+$input-btn-focus-box-shadow: none;
+
